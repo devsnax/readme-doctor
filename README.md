@@ -84,12 +84,14 @@ python main.py draft_project_readme.md
 Watch demo on YouTube: https://youtu.be/J3C4FNUVDxg?si=MB91iSGtxoiHdwtd
 
 ## Project Structure
+```bash
 readme-doctor/
 ├── generator.py
 ├── generate.py
 ├── polish.py
 ├── prompts.py
 ├── main.py
+```
 
 ### File Breakdown
 
@@ -128,5 +130,4 @@ This modular structure keeps API logic, prompt design, and execution flow clearl
 This project is licensed under the MIT License.
 
 
-
-### This README was generated using README Doctor.
+This README was generated using README Doctor.
