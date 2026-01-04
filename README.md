@@ -14,7 +14,7 @@ A Python-powered AI assistant for rapid generation and refinement of GitHub READ
 
 The `main.py` script serves as the central interface for Readme Doctor. When executed without any command-line arguments, it initiates "Generate" mode, prompting the user for core project details such as name, description, and key modules. These inputs are then dispatched to the integrated Google Gemini AI.
 
-Alternatively, when `main.py` is invoked with a file path argument (e.g., `python main.py path/to/my_readme.md`), it activates "Polish" mode. The script reads the specified README content, submits it to the Gemini AI for analysis and enhancement, and then returns an improved version.
+Alternatively, when `main.py` is invoked with a file path argument (e.g., `python main.py my_readme.md`), it activates "Polish" mode. The script reads the specified README content, submits it to the Gemini AI for analysis and enhancement, and then returns an improved version.
 
 In both operational modes, the AI processes the provided input, constructs or refines the README, and the script saves the resulting Markdown file directly to the project's root directory.
 
@@ -49,7 +49,7 @@ Follow the interactive prompts to provide your project's name, a brief descripti
 To enhance an existing README file, pass its path as a command-line argument:
 
 ```bash
-python main.py path/to/your/current_readme.md
+python main.py current_readme.md
 ```
 
 The script will read, process, and then save the polished README as `polished_README.md` in your current directory.
@@ -92,3 +92,6 @@ python main.py draft_project_readme.md
 ## License
 
 This project is licensed under the MIT License.
+
+##
+This README was generated using README Doctor.
