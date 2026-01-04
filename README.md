@@ -27,7 +27,7 @@ Readme Doctor requires Python 3.8 or newer.
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/your-username/readme-doctor.git # Replace with actual repo URL
+git clone https://github.com/devsnax/readme-doctor.git
 cd readme-doctor
 pip install -r requirements.txt
 ```
