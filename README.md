@@ -32,7 +32,7 @@ cd readme-doctor
 pip install -r requirements.txt
 ```
 
-Ensure your Gemini API key is configured. This is typically done by setting the `GOOGLE_API_KEY` environment variable.
+Ensure your Gemini API key is configured. This is typically done by setting the `GEMINI_API_KEY` environment variable.
 
 ### Generate Mode
 
