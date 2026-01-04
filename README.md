@@ -80,6 +80,40 @@ python main.py draft_project_readme.md
 
 # (Output: A new file named 'polished_README.md' is created, containing the enhanced content.)
 ```
+### Demo
+Watch demo on YouTube: https://youtu.be/J3C4FNUVDxg?si=MB91iSGtxoiHdwtd
+
+## Project Structure
+readme-doctor/
+├── generator.py
+├── generate.py
+├── polish.py
+├── prompts.py
+├── main.py
+
+### File Breakdown
+
+* `generator.py`
+Handles all communication with the Gemini API.
+This file is responsible for sending prompts, managing API requests, and returning generated text.
+
+* `generate.py`
+Implements Generate Mode.
+Collects structured project details (project name, description, modules), and produces a complete README from scratch.
+
+* `polish.py`
+Implements Polish Mode.
+Takes an existing README file and refines it into a concise, professional, hackathon-ready version.
+
+* `prompts.py`
+Stores all prompt templates used by the application.
+Separating prompts keeps generation logic clean and makes prompt iteration easier.
+
+* `main.py`
+Entry point of the application.
+Handles CLI arguments, determines whether to run Generate or Polish mode, and orchestrates the full pipeline.
+
+This modular structure keeps API logic, prompt design, and execution flow clearly separated, making the tool easy to extend and maintain.
 
 ## Future Improvements
 
@@ -93,5 +127,6 @@ python main.py draft_project_readme.md
 
 This project is licensed under the MIT License.
 
-##
-This README was generated using README Doctor.
+
+
+### This README was generated using README Doctor.
